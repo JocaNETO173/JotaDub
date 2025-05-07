@@ -1,0 +1,29 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cor-fraca: #F9F9F9;
+    --cor-fraquissima: #C0C0C0;
+    --cor-primaria: #FCBA6C;
+    --cor-secundaria: #8FC3FF;
+    --botao-laranja: #FFA45F;
+    --cor-fundo: #00030C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--branco-principal);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.azul{
+    color: var(--cor-secundaria);
+}
+
+.laranja{
+    color: var(--cor-primaria);
+}
