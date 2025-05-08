@@ -17,7 +17,6 @@ body {
     background-color: var(--cor-fundo);
     color: var(--branco-principal);
     font-family: "Inter", sans-serif;
-    font-weight: bold;
 }
 
 .azul{
@@ -26,4 +25,32 @@ body {
 
 .laranja{
     color: var(--cor-primaria);
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.principal {
+    background-image: url("imagens/Dubladores.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+
+.container__botao {
+    display: block;
+    background-color: var(--botao-laranja);
+    color: var(--branco-principal);
+    border-radius: 8px;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    margin: 16px 0px 10px;
 }
