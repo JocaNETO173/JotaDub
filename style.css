@@ -6,6 +6,7 @@
     --cor-secundaria: #8FC3FF;
     --botao-laranja: #FFA45F;
     --cor-fundo: #00030C;
+    --fonte-principal: "Inter", sans-serif ;
 }
 
 * {
@@ -16,7 +17,8 @@
 body {
     background-color: var(--cor-fundo);
     color: var(--branco-principal);
-    font-family: "Inter", sans-serif;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
 }
 
 .azul{
@@ -53,4 +55,9 @@ body {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
     margin: 16px 0px 10px;
+}
+
+.container__aviso {
+    color: var(--cor-fraquissima);
+    font-size: 12px;
 }
