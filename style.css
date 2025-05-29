@@ -92,3 +92,39 @@ body {
     font-weight: 150;
     color: var(--cor-fraca);
 }
+
+.terciario {
+    grid-template-columns: 50% 25% 25%;
+    align-items: center;
+    justify-items: center;
+}
+
+.terciario__div {
+    margin-left: 6em;
+}
+
+.terciario__div p {
+    color: var(--cor-fraca);
+    font-weight: 150;
+    width: 80%;
+    margin-bottom: 1em;
+    line-height: 150%;
+}
+
+.botao_terciario {
+    width: 33%;
+    text-align: center;
+}
+
+.quaternario {
+    grid-template-columns: 50% 50%;
+}
+
+.internet__titulo {
+    color: var(--branco-principal)
+}
+
+.internet__descricao {
+    color: var(--cor-fraca);
+    font-weight: 150;
+}
