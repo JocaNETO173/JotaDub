@@ -120,6 +120,10 @@ body {
     grid-template-columns: 50% 50%;
 }
 
+.quaternario__imagem {
+    text-align: center;
+}
+
 .internet__titulo {
     color: var(--branco-principal)
 }
@@ -127,4 +131,49 @@ body {
 .internet__descricao {
     color: var(--cor-fraca);
     font-weight: 150;
+}
+
+.rodape {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 2em 0;
+    font-size: 32px;
+}
+
+.rodape__logo {
+    width: 233px;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.rodape__lista a {
+    color: var(--branco-principal);
+    text-decoration: none;
+    margin-left: 1.5em;
+}
+
+.rodape__texto {
+    color: var(--cor-fraquissima);
+    font-weight: 200;
+    font-size: 14px;
+    margin: 1em 0;
 }
